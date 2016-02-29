@@ -1,0 +1,39 @@
+# Site settings
+title: Emma YU Blog
+email: emmayu0611@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Emma YU Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yuemma.github.io/" # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+# Social account
+#twitter: 
+# weibo:    ID
+github: yuemma
+# codepen:  username
+# dribbble: username
+
+# avatar Favicon
+avatar: /assets/img/site-avatar.png
+favicon: /assets/img/site-avatar.ico
+
+# disqus 
+disqus:
+  shortname: yuemma
+
+# google analytics 
+#ga:
+#  id: 
+#  url: 
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
