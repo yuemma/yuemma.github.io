@@ -28,8 +28,8 @@ disqus:
 
 # google analytics 
 #ga:
-#  id: 
-#  url: 
+  id: UA-74499304-1
+  url: yuemma.github.io
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
