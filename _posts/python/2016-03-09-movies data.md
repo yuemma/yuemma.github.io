@@ -1,3 +1,10 @@
+---
+layout: post
+title: movies data analysis
+category: python
+tags: python
+description: movies data analysis
+---
 
 
 ```python
