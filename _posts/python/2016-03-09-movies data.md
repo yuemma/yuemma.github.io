@@ -31,12 +31,39 @@ mean_ratings
 ```
 
 
-|gender| F | M |
-|-------|---|----|
-|$1,000,000 Duck (1971)|3.375000 | 2.761905 |
-|'Night Mother (1986)|3.388889 | 3.352941 |
 
-3706 rows × 2 columns
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>gender</th>
+      <th>F</th>
+      <th>M</th>
+    </tr>
+    <tr>
+      <th>title</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>$1,000,000 Duck (1971)</th>
+      <td>3.375000</td>
+      <td>2.761905</td>
+    </tr>
+    <tr>
+      <th>'Night Mother (1986)</th>
+      <td>3.388889</td>
+      <td>3.352941</td>
+    </tr>
+  </tbody>
+</table>
+<p>3706 rows × 2 columns</p>
+</div>
+
+
 
 
 ```python
