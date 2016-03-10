@@ -5,18 +5,19 @@ category: python
 tags: python
 description: install ipython notebook
 ---
-###介绍
+
+## 介绍
 IPython是个比默认的Python Shell好用得多的Python交互命令行界面，支持变量自动补全、自动缩进、Bash Shell命令，并内置了许多有用的功能和函数。
 IPython notebook 是一个基于 IPython REPL 的 web 应用。IPython运行结果可以单独保存，格式为 .ipynb 。现 GitHub 已提供 IPython notebook 的在线预览。
 ipython notebook现在名为jupyter noteboook。
 
 >此文章基于Windows系统环境
 
-###安装命令
+## 安装命令
 在命令行下执行指令：
 >pip install "ipython[notebook]"
 
-###运行Ipython notebook
+## 运行Ipython notebook
 在命令行下执行指令：
 >ipython notebook
 
@@ -31,10 +32,10 @@ ipython notebook现在名为jupyter noteboook。
 此时再点击右上角的New按钮，选择Python2，就会打开Ipython notebook的.ipynb文件的编辑页面，如下图
 ![](/assets/postImg/2016-03-02-A02.png)
 
-###结束Ipython notebook
+## 结束Ipython notebook
 在上述命令行窗口按「Ctrl」键加「C」键
 
-###使用Ipython notebook过程中可能出现的问题
+## 使用Ipython notebook过程中可能出现的问题
 1. 问题1： 快捷键怎么用？
 
 答： 点击工具栏的Help————>Keyboard Shortcuts,即可看到所有快捷键的说明
