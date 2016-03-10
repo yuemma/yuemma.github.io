@@ -30,7 +30,7 @@ mean_ratings = data.pivot_table(values='rating', index='title', columns='gender'
 mean_ratings
 ```
 
-
+##运行结果如下
 
 
 <div>
