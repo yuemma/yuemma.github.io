@@ -15,16 +15,19 @@ ipython notebook现在名为jupyter noteboook。
 
 ## 安装命令
 在命令行下执行指令：
+
 ```CPP
 pip install "ipython[notebook]"
 ```
 ## 运行Ipython notebook
 在命令行下执行指令：
+
 ```CPP
 ipython notebook
 ```
 
 默认浏览器会自动打开本地的Ipython notebook页面
+
 ```CPP
   http://localhost:8888/tree#
 ```
@@ -47,6 +50,7 @@ ipython notebook
 ### 问题2： tab键的变量自动补全、函数提示不能用.
 
 答： IPython tab completion的功能不可用，是因为pyreadline library没有正确安装. 在Windows系统下的命令行输入：
+
 ```CPP
 pip install pyreadline
 ```
@@ -54,6 +58,7 @@ pip install pyreadline
 ### 问题3： pip install pyreadline不能正确执行。
 
 答： 可以尝试重新安装Ipython，再执行pyreadline的安装命令：
+
 ```CPP
 pip uninstall ipython
 pip install ipython
