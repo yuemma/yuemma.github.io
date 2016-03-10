@@ -15,16 +15,19 @@ ipython notebook现在名为jupyter noteboook。
 
 ## 安装命令
 在命令行下执行指令：
-> pip install "ipython[notebook]"
-
+```CPP
+pip install "ipython[notebook]"
+```
 ## 运行Ipython notebook
 在命令行下执行指令：
-> ipython notebook
+```CPP
+ipython notebook
+```
 
 默认浏览器会自动打开本地的Ipython notebook页面
-> http://localhost:8888/tree#
-
-
+```CPP
+  http://localhost:8888/tree#
+```
 如图：
 ![](/assets/postImg/2016-03-02-A01.png)
 点击右上角的按钮New-->Folder, 新建文件夹用来存储IPython运行结果，新建文件夹默认名字为Untitled Folder。
@@ -44,15 +47,18 @@ ipython notebook现在名为jupyter noteboook。
 ### 问题2： tab键的变量自动补全、函数提示不能用.
 
 答： IPython tab completion的功能不可用，是因为pyreadline library没有正确安装. 在Windows系统下的命令行输入：
-> pip install pyreadline
+```CPP
+pip install pyreadline
+```
 
 ### 问题3： pip install pyreadline不能正确执行。
 
 答： 可以尝试重新安装Ipython，再执行pyreadline的安装命令：
-> pip uninstall ipython
-> pip install ipython
-> pip install pyreadline
-
+```CPP
+pip uninstall ipython
+pip install ipython
+pip install pyreadline
+```
 
 ### 问题4： 正确安装pyredline之后，在如下情况下为何Tab键仍然失效？
 
