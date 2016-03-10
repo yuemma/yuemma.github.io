@@ -19,6 +19,7 @@ ipython notebook现在名为jupyter noteboook。
 ###运行Ipython notebook
 在命令行下执行指令：
 >ipython notebook
+
 默认浏览器会自动打开本地的Ipython notebook页面
 >http://localhost:8888/tree#
 如图：
