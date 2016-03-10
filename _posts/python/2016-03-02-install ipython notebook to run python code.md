@@ -22,6 +22,7 @@ ipython notebook现在名为jupyter noteboook。
 
 默认浏览器会自动打开本地的Ipython notebook页面
 >http://localhost:8888/tree#
+
 如图：
 ![](/assets/postImg/2016-03-02-A01.png)
 点击右上角的按钮New-->Folder, 新建文件夹用来存储IPython运行结果，新建文件夹默认名字为Untitled Folder。
