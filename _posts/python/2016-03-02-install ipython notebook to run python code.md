@@ -36,16 +36,16 @@ ipython notebook现在名为jupyter noteboook。
 在上述命令行窗口按「Ctrl」键加「C」键
 
 ## 使用Ipython notebook过程中可能出现的问题
-1. 问题1： 快捷键怎么用？
+### 问题1： 快捷键怎么用？
 
 答： 点击工具栏的Help————>Keyboard Shortcuts,即可看到所有快捷键的说明
 
-2. 问题2： tab键的变量自动补全、函数提示不能用.
+### 问题2： tab键的变量自动补全、函数提示不能用.
 
 答： IPython tab completion的功能不可用，是因为pyreadline library没有正确安装. 在Windows系统下的命令行输入：
 >pip install pyreadline
 
-3. 问题3： pip install pyreadline不能正确执行。
+### 问题3： pip install pyreadline不能正确执行。
 
 答： 可以尝试重新安装Ipython，再执行pyreadline的安装命令：
 >pip uninstall ipython
@@ -54,9 +54,10 @@ ipython notebook现在名为jupyter noteboook。
 
 >pip install pyreadline
 
-4. 问题4： 正确安装pyredline之后，在如下情况下为何Tab键仍然失效？
+### 问题4： 正确安装pyredline之后，在如下情况下为何Tab键仍然失效？
 
 ![](/assets/postImg/2016-03-02-A03.png)
 
 答：需要先按shift键+enter键执行代码import datetime后，datetime.<tab>才会凑效，如下图：
+
 ![](/assets/postImg/2016-03-02-A04.png)
