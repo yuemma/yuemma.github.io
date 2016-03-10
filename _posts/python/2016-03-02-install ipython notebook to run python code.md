@@ -2,7 +2,7 @@
 layout: post
 title: install ipython notebook 
 category: python
-tags: python 运行环境
+tags: python
 description: install ipython notebook
 ---
 ###介绍
