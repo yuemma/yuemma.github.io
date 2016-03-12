@@ -24,6 +24,9 @@ ipython notebook现在名为jupyter noteboook。
 
 >ipython notebook
 
+现在升级为jupyter，所以也可以使用命令
+
+>jupyter notebook
 
 默认浏览器会自动打开本地的Ipython notebook页面
 
@@ -31,10 +34,12 @@ ipython notebook现在名为jupyter noteboook。
 
 如图：
 ![](/assets/postImg/2016-03-02-A01.png)
+
 点击右上角的按钮New-->Folder, 新建文件夹用来存储IPython运行结果，新建文件夹默认名字为Untitled Folder。
 选中此文件夹左侧的方框，会出现Rename按钮用来重命名此文件夹。
 直接点击此文件夹，进入文件夹内部，
 此时再点击右上角的New按钮，选择Python2，就会打开Ipython notebook的.ipynb文件的编辑页面，如下图：
+
 ![](/assets/postImg/2016-03-02-A02.png)
 
 ## 结束Ipython notebook
@@ -74,3 +79,10 @@ ipython notebook现在名为jupyter noteboook。
 
 答：在变量后加？问号，按shift键+enter键执行命令，即可看到关于变量b的一些通用信息，如下图所示：
 ![](/assets/postImg/2016-03-02-A05.png)
+
+### 问题6： 使用matplotlib绘图，直接执行绘图命令后，GUI事件循环会接管IPython会话的控制权，直到该绘图窗口关闭为止，如下图所示，那么该如何实现交互式的数据分析可视化呢？
+![](/assets/postImg/2016-03-02-A06.png)
+
+答：在网页中嵌入绘图库绘制的图形，可以使用 %matplotlib inline 或者 %pylab inline 启动这个功能。
+再次执行绘图命令，结果如下图所示：
+![](/assets/postImg/2016-03-02-A07.png)
