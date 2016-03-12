@@ -41,6 +41,7 @@ ipython notebook现在名为jupyter noteboook。
 在上述命令行窗口按「Ctrl」键加「C」键
 
 ## 使用Ipython notebook过程中可能出现的问题
+
 ### 问题1： 快捷键怎么用？
 
 答： 点击工具栏的Help————>Keyboard Shortcuts,即可看到所有快捷键的说明
@@ -56,7 +57,9 @@ ipython notebook现在名为jupyter noteboook。
 答： 可以尝试重新安装Ipython，再执行pyreadline的安装命令：
 
 >pip uninstall ipython
+
 >pip install ipython
+
 >pip install pyreadline
 
 
