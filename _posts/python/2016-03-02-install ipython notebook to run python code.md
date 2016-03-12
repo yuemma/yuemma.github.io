@@ -56,14 +56,15 @@ ipython notebook现在名为jupyter noteboook。
 答： 可以尝试重新安装Ipython，再执行pyreadline的安装命令：
 
 >pip uninstall ipython
-pip install ipython
-pip install pyreadline
+>pip install ipython
+>pip install pyreadline
 
 
 ### 问题4： 正确安装pyredline之后，在如下情况下为何Tab键仍然失效？
 ![](/assets/postImg/2016-03-02-A03.png)
 
 答：需要先按shift键+enter键执行代码import datetime后，datetime.<tab>才会凑效，如下图所示：
+
 ![](/assets/postImg/2016-03-02-A04.png)
 
 ### 问题5： 查看关于变量的一些通用信息(对象内省 object introspection)
