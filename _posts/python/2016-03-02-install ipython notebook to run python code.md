@@ -68,7 +68,7 @@ pip install pyreadline
 答：需要先按shift键+enter键执行代码import datetime后，datetime.<tab>才会凑效，如下图所示：
     ![](/assets/postImg/2016-03-02-A04.png)
 
-### 问题5： 查看关于变量的一些通用信息
+### 问题5： 查看关于变量的一些通用信息(对象内省 object introspection)
 
 答：在变量后加？问号，按shift键+enter键执行命令，即可看到关于变量b的一些通用信息，如下图所示：
     ![](/assets/postImg/2016-03-02-A05.png)
